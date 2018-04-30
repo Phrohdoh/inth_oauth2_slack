@@ -1,0 +1,29 @@
+[package]
+name = "inth_oauth2_slack"
+version = "0.0.1"
+
+description = "OAuth2 provider for Slack via the `inth-oauth2` crate"
+readme = "README.md"
+
+authors = ["Taryn Hill <taryn@phrohdoh.com>"]
+
+documentation = "https://docs.rs/inth_oauth2_slack"
+homepage = "https://github.com/Phrohdoh/inth_oauth2_slack"
+repository = "https://github.com/Phrohdoh/inth_oauth2_slack"
+
+keywords = ["authentication", "authorization", "auth", "oauth", "slack"]
+
+license-file = "LICENSE"
+
+include = [
+    "Cargo.toml",
+    "Cargo.lock",
+    "src/**/*.rs",
+    "LICENSE",
+    "README.md",
+]
+
+[dependencies]
+inth-oauth2 = "^0.15"
+url = "^1.7"
+lazy_static = "^1.0"
