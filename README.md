@@ -2,7 +2,9 @@
 
 Provides an implementation of [`inth-oauth2`](https://crates.io/crates/inth-oauth2)'s `Provider` trait for [Slack](https://slack.com/).
 
-[Documentation](https://docs.rs/inth_oauth2_slack)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![docs.rs](https://docs.rs/inth_oauth2_slack/badge.svg)](https://docs.rs/inth_oauth2_slack)
+[![crates.io](https://meritbadge.herokuapp.com/inth_oauth2_slack)](https://crates.io/crates/inth_oauth2_slack)
 
 ## Examples
 
